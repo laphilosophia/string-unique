@@ -1,13 +1,13 @@
 {
-  "name": "@laphilosophia/unique",
-  "version": "1.0.0",
+  "name": "@laphilosophia/string-unique",
+  "version": "1.0.1",
   "description": "missing string methods",
   "author": "Erdem Arslan",
   "license": "MIT",
   "main": "index.js",
   "repository": {
-    "type": "https://github.com/laphilosophia/unique",
-    "url": "git+https://github.com/laphilosophia/unique.git"
+    "type": "https://github.com/laphilosophia/string-unique",
+    "url": "git+https://github.com/laphilosophia/string-unique.git"
   },
   "scripts": {
     "build": "esbuild index.ts --bundle --minify --sourcemap --target=chrome58,firefox57,safari11,edge16 --outfile=index.js"
